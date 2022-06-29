@@ -7,8 +7,10 @@ const Question = forwardRef ((props,ref)=>{
     
     const [selected,setSelected] = React.useState(0)
     const [optionarr,setOptionArr] = React.useState(()=>{
+        
         const optionEl = []
-        props.incorrect_option.splice(Math.floor(Math.random()*5),0,props.correct_option)
+        props.incorrect_option.splice(Math.floor(Math.random()*10),0,props.correct_option)
+
         for(let i = 0; i < props.incorrect_option.length;i++){
             const id = i
             const element = <Option

@@ -33,12 +33,13 @@
     line-height: 100%;
     color: #293264;
     text-align:center;
+    margin-bottom: 7vmin;
 }
 
 .start-btn{
     display: block;
     margin: auto;
-    margin-top: 6vmin;
+    margin-top: 7vmin;
     width: 25vmin;
     padding: 2vmin 5vmin;
     font-size: 3vmin;
@@ -50,9 +51,26 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-
-
 .start-btn:active{
+    filter: drop-shadow(0 0 0 rgba(256,256,256,0));
+}
+
+.cat-btn{
+    display: block;
+    margin: auto;
+    width: 20vmin;
+    margin-top: 5vmin;
+    padding: 2vmin 2vmin;
+    font-size: 2.5vmin;
+    border-radius: 15px;
+    border: none;
+    color: #707798;;
+    background: #DEEBF8;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cat-btn:active{
     filter: drop-shadow(0 0 0 rgba(256,256,256,0));
 }
 
@@ -113,11 +131,86 @@
     color: #293264;
 }
 
+.cat-option{
+        width: 100%;
+        margin-bottom: 5vmin;
+        grid-gap: 2vmin 5vmin;
+        display: grid;
+        grid-template-columns:20% 20% 20% 20% ; 
+}
+
+.option-cat{
+    width: 100%;
+    margin: 2vmin 3vmin 0 3vmin;
+    padding: 1vmin 2vmin;
+    border: 1.5px solid #293264;
+    background-color: rgb(238, 248, 253);
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 2.4vmin;
+    line-height: 100%;
+    /* identical to box height */
+    text-align: center;
+    color: #293264;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.option-cat:active{
+    filter: drop-shadow(0 0 0 rgba(256,256,256,0));
+}
+
+.dif-option{
+    width: 100%;
+    margin: 3vmin 0;
+    display: grid;
+}
+
+.dif-cat{
+    width: 50%;
+    margin: 2vmin auto;
+    padding: 2vmin 0vmin;
+    border: 1.5px solid #293264;
+    background-color: #fffdeb;
+    border-radius: 13px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 2vmin;
+    line-height: 100%;
+    /* identical to box height */
+    text-align: center;
+    color: #293264;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.dif-cat:active{
+    filter: drop-shadow(0 0 0 rgba(256,256,256,0));
+}
+
 @media screen and (max-width: 900px) {
+
+    .dif-cat{
+        width: 50%;
+        margin: 2vmin auto;
+        padding: 2vmin 0vmin;
+        border: 1.5px solid #293264;
+        background-color: #fffdeb;
+        border-radius: 13px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 2vmin;
+        line-height: 100%;
+        /* identical to box height */
+        text-align: center;
+        color: #293264;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    }
 
     .option-container{
         margin-top: 1vmin;
-        width: 100%;
         display: grid;
         grid-template-columns: 50% 50%;
     }
@@ -145,6 +238,48 @@
 }
 
 @media screen and (max-width: 600px) {
+
+
+    .dif-option{
+        width: 100%;
+        margin: 8vmin 0 3vmin 0;
+    }
+
+    .dif-cat{
+        width: 50%;
+        margin: 2vmin auto;
+        padding: 2vmin 0vmin;
+        border: 1.5px solid #293264;
+        background-color: #fffdeb;
+        border-radius: 13px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 5vmin;
+        line-height: 100%;
+        /* identical to box height */
+        text-align: center;
+        color: #293264;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    }
+
+    .option-cat{
+        width: 100%;
+        margin: 2vmin 3vmin 0 3vmin;
+        padding: 2vmin 4vmin;
+        border: 1.5px solid #293264;
+        background-color: white;
+        border-radius: 13px;
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 4vmin;
+        line-height: 100%;
+        /* identical to box height */
+        text-align: center;
+        color: #293264;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+
     .option-container{
         width: 100%;
         display: grid;
@@ -167,6 +302,26 @@
         line-height: 100%;
         color: #293264;
         text-align:center;
+        margin-bottom: 16vmin;
+    }
+
+    .cat-btn{
+        display: block;
+        margin: auto;
+        margin-top: 4vmin;
+        width: 50vmin;
+        padding: 3vmin 7vmin;
+        font-size: 5vmin;
+        border-radius: 15px;
+        border: none;
+        color: #707798;;
+        background: #DEEBF8;
+        cursor: pointer;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    
+    .cat-btn:active{
+        filter: drop-shadow(0 0 0 rgba(256,256,256,0));
     }
     
     .start-btn{
