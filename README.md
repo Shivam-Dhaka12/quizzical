@@ -8,13 +8,17 @@
   <em>A React app that brings you random questions based on difficulty and category! 🎯</em>
 </p>
 
-## 🚀 Features
+### 🚀 Features
 
 - 🎲 Randomly generates a quiz based on difficulty and category.
 - 📚 Supports various categories like General Knowledge, Science, History, and more.
 - 👥 User-friendly interface for answering questions and tracking progress.
 - ✅ Displays correct answers and scores at the end of the quiz.
 - 📱 Responsive design for seamless usage on different devices.
+
+
+## 🌐 Live Link: 
+https://shivam-dhaka12.github.io/quizzical/
 
 ## 🛠️ Installation
 
