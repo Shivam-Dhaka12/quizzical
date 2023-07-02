@@ -27,7 +27,7 @@ To run Quizzical locally, follow these steps:
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/quizzical.git
+    git clone https://github.com/Shivam-Dhaka12/quizzical.git
     ```
 
 2. Navigate to the project directory:
